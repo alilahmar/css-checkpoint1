@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #BA1120;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul{
+    display: flex;
+    background-color: #c3c2d3;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    flex: 1;
+    margin: 10px;
+    padding: 15px; 
+    font-size: large;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #df2929;
+
+}
+a:hover{
+    color: white;
+}
+#Home{
+    padding: 0px;
+    margin: 15px;
+}
+h2{
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px 100px;
+    font-size: 60px;
+    color: white;
+}
+#Home img{
+    width: 700px;
+    height: 300px;
+}
+#Home p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#About img{
+    width: 600px;
+    height: 500px;
+    margin: 25px;
+}
+#Work{
+    display: inline-block;
+}
+#Work p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 15px;
+}
+#Work img{
+    width: 400px;
+    height: 400px;
+    margin: 15px 15px;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+    margin: 15px 15px;
+}
+#Join{
+    background-color: rgb(233, 105, 105);
+    margin: 20% auto;
+	border-radius: 20px;
+	height: 230px;
+	width: 300px;
+	flex-direction: column;
+	display: flex;
+	text-align: center;
+    padding: 20px 20px;
+}
+input{
+	margin: 0px;
+	width: 300px;
+	height: 30px;
+    background-color: #c79090;
+    border-radius: 20px;
+    }
+    button{
+        height: 36px;
+        width: 300px;
+        background-color: #240505;
+        border-radius: 20px;
+        margin: 10px 0;
+        color: white;
+    }
+    footer{
+        background-color:  #c3c2d3;
+        padding: 15px 0px;
+        margin: 0px;
+    }
+
+    h4{
+        font-style: italic;
+        color: black;
+    }
+    footer img{
+        width: 50px;
+        height: 50px;
+        margin-right: 5rem;
+        
+    } 
+    footer img:hover{
+        background-color: red;
+        margin: 0px;
+        padding: 0px;
+        width: 8%;
+        position: absolute;
+    } 
